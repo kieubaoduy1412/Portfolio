@@ -1,0 +1,5 @@
+/**/
+#Database Connection Information
+app.database.url=jdbc:mysql://localhost:3306/blog?&useUnicode=yes&characterEncoding=UTF-8
+app.database.username=root
+app.database.password=Ba@od14121

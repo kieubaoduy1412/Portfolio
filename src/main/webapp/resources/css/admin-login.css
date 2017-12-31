@@ -1,0 +1,79 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #1D2115;
+    display: flex;
+		flex-direction: column;
+		justify-content: center;
+		resize: vertical;
+		overflow: auto;
+		height: 100vh;
+}
+.login-form{
+	max-width: 400px;
+	background-color: white;
+	padding: 20px 40px;
+	border-radius: 5px;
+	position: relative;
+}
+.header-title{
+	font-size: 36px;
+	font-weight: bold
+}
+.login-form input{
+	width: 100%;
+	font-size: 20px;
+	padding:3px 2px;
+}
+.username{
+	margin-top: 40px;
+}
+.password{
+	margin-top: 10px;
+}
+.login-button{
+	margin-top: 20px;
+	padding:5px 3px;
+	font-size: 18px;
+	background-color: #C6A45D;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-style: none;
+	color: white;
+}
+.login-button:hover{
+	background-color: #9880b3
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*FONT*/
+@font-face {
+    font-family: titleFont;
+    src: url('../fonts/BreeSerif-Regular.ttf');
+}
+
+.title-font  {
+    font-family: titleFont;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: contentFont;
+    src:url("../fonts/OpenSans-Regular.ttf");
+}
+
+.content-font {
+    font-family: contentFont;
+}

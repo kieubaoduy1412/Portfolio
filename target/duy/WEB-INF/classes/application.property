@@ -1,0 +1,5 @@
+/**/
+#Database Connection Information
+app.database.url=jdbc:mysql://localhost/ATMDB
+app.database.username=client
+app.database.password=123456
